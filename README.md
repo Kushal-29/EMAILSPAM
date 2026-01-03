@@ -15,4 +15,4 @@ A machine learning system to classify emails as spam or ham with over 90% accura
 1. Clone the repository:
 ```bash
 git clone https://github.com/yourusername/email-spam-detector.git
-cd email-spam-detector.
+cd email-spam-detector.   b 
