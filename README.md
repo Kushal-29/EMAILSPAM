@@ -1,14 +1,14 @@
 📬 Email Spam Classifier
-
+               
 A machine learning-powered Python project that classifies email messages as spam or not spam (ham) using natural language processing (NLP) and supervised learning techniques.
-
+            
 🔍 Project Overview
-
+               
 Spam emails are a common problem in digital communication — they waste time, carry phishing threats, and can contain malware. This project builds an automated classifier that analyzes email text and predicts whether it’s spam or legitimate.
 
 It uses classic machine learning techniques combined with text processing to deliver accurate results.
 
-🚀 Key Features
+🚀 Key Features                                
 
 ✔ Clean and preprocess email text
 ✔ Convert text into machine-readable features
@@ -16,7 +16,7 @@ It uses classic machine learning techniques combined with text processing to del
 ✔ Predict spam in new email samples
 ✔ Easy to run locally
 
-🛠️ Tech Stack
+🛠️ Tech Stack               
 Component	Technology
 Language	Python
 Libraries	pandas, scikit-learn, nltk
@@ -38,10 +38,10 @@ EMAILSPAM/
 ├── spam_classifier.py        # Main classification script
 ├── requirements.txt          # Python dependencies
 └── README.md
+             
+📊 How It Works              
 
-📊 How It Works
-
-Here's the typical pipeline:
+Here's the typical pipeline:              
 
 Load dataset containing labeled emails
 
@@ -56,7 +56,7 @@ Tokenizing words
 Vectorize text using:
 
 Bag of Words
-
+            
 TF-IDF
 
 Train ML model
@@ -69,7 +69,7 @@ Save and export model
 
 Use model to predict new emails
 
-📥 Installation & Setup
+📥 Installation & Setup             
 Step 1 — Clone the repository
 git clone https://github.com/Kushal-29/EMAILSPAM.git
 cd EMAILSPAM
@@ -90,10 +90,10 @@ python spam_classifier.py
 The script will load the trained model (or train if missing), then prompt you to enter text for classification.
 
 🔹 Example Input
-Enter email content:
+Enter email content:              
 "Congratulations! You’ve won a free gift card! Click here to claim now!"
 
-🔹 Example Output
+🔹 Example Output           
 Prediction: SPAM
 
 📊 Performance & Evaluation
@@ -102,7 +102,7 @@ Metrics from the model after training on the dataset:
 
 Metric	Score
 Accuracy	~95%
-Precision	~93%
+Precision	~93%        
 Recall	~92%
 F1-Score	~92%
 
